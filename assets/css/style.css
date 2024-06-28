@@ -7,3 +7,8 @@ body{
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
+
+.custom-tooltip {
+  --bs-tooltip-bg: teal;
+  --bs-tooltip-color: white;
+}
