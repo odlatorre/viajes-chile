@@ -5,6 +5,7 @@ body{
   font-weight: 400;
   font-style: normal;
   font-variation-settings:"wdth" 100;
+  background-color: #0F0F0F;
 }
 
 
@@ -23,3 +24,12 @@ nav {
   font-weight: 100;
   font-style: normal;
 }
+
+.navbar-toggler:hover{
+  border-color: green;
+}
+
+.navbar-toggler{
+  border-color: white;
+}
+
