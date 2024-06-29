@@ -54,12 +54,12 @@ $(document).ready(function () {
 
 // Activa el Modal del formulario
 $(document).ready(function () {
-  var myModal = $("#myModal");
-  var myInput = $("#myInput");
+  $("#contact").on("submit", function (event) {
+    event.preventDefault();
+    $("#exampleModal").modal("show");
+  });
 
-  if (myModal.length) {
-    myModal.on("shown.bs.modal", function () {
-      myInput.focus();
-    });
-  }
+  $("#exampleModal").on("shown.bs.modal", function () {
+    $("#name").focus();
+  });
 });
