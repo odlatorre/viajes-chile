@@ -13,7 +13,7 @@ body {
   --bs-tooltip-bg: teal;
   --bs-tooltip-color: white;
 }
-
+/* Agregando fondo transparente en navbar */
 nav {
   background-color: transparent !important;
 }
@@ -56,12 +56,25 @@ nav {
   height: 200px;
 }
 
-#destacados div.favicon {
-  height: 100px;
-}
 
 @media (min-width: 992px) {
   #contact {
     padding: 0px 50px 0px 20px;
   }
+}
+
+.favicon{
+  height: 50px;
+}
+
+i.fav{
+  margin: 10px 0px 10px 0px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color:#c1a9e5;
 }
