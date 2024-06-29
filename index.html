@@ -32,24 +32,26 @@
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/viajes.svg" alt="marca" width="auto" height="40">
-                    <span class="brand fs-3 text-light company fw-bold">Viajes Chile</span>
+                    <span class="brand fs-5 text-light company fw-bold">Viajes Chile</span>
 
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="toggle-icon">
+                            <i class="fa-solid fa-bars"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <!-- Acá esta el Smooth Scroll -->
                     <ul class="navbar-nav ms-auto">
-                        <li><a class="nav-link fs-4 text-light" href="#">Inicio</a></li>
-                        <li><a class="nav-link fs-4 text-light" href="#quienes-somos">Quienes
+                        <li><a class="nav-link fs-5 text-light" href="#">Inicio</a></li>
+                        <li><a class="nav-link fs-5 text-light" href="#quienes-somos">Quienes
                                 Somos</a></li>
-                        <li><a class="nav-link fs-4 text-light" href="#destacados">Destacados</a>
+                        <li><a class="nav-link fs-5 text-light" href="#destacados">Destacados</a>
                         </li>
-                        <li><a class="nav-link fs-4 text-light" href="#contacto">Contacto</a></li>
+                        <li><a class="nav-link fs-5 text-light" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -212,41 +214,50 @@
         <p></p>
     </section>
 
-    <section id="contacto">
-        <h2 class="text-light display-3 text-center py-5">Contacto</h2>
-        <div class="container">
-            <form>
+    <section id="contacto" class="mb-5">
+        <h2 class="text-light display-3 text-center">Contacto</h2>
+        <div class="container mx-auto">
+            <form id="contact">
             
                 <div class="mb-3">
-                    <label for="name" class="form-label text-light fs-4">Nombre</label>
-                    <input type="text" class="form-control" id="name">
+                    <label for="name" class="form-label text-light fs-4 col-form-label-lg">Nombre</label>
+                    <input type="text" class="form-control form-control-lg" id="name">
                 </div>
 
                 <div class="mb-3">
-                    <label for="subject" class="form-label text-light fs-4">Asunto</label>
-                    <input type="text" class="form-control" id="subject">
+                    <label for="subject" class="form-label text-light fs-4 col-form-label-lg">Asunto</label>
+                    <input type="text" class="form-control form-control-lg" id="subject">
                 </div>
 
                 <div class="mb-3">
                     <label for="message" class="form-label text-light fs-4">Mensaje</label>
                     <textarea class="form-control" id="message" rows="3"></textarea>
                 </div>
+                
                 <button type="Enviar" class="btn btn-info fs-4">Enviar</button>
             </form>
         </div>
     </section>
 
-    <footer class="bg-info">
+    <footer class="bg-info py-5">
         <div class="container">
             <div class="row">
-                <div class="col-4"><span class="brand fs-3 text-light company fw-bold">VIAJES CHILE</span></div>
+                <div class="col-4"><span class="brand fs-3 text-light company fw-bold">Viajes Chile</span></div>
                 <div class="col-8">
-                    <ul class="navbar-nav">
-                        <li><a href="https://github.com/odlatorre/viajes-chile">Github</a></li>
-                        <li><a href="#">LinkeIn</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="$">Facebook</a></li>
-                    </ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item" >
+                    <a class="nav-link" href="https://github.com/odlatorre/viajes-chile"><i class="fa-brands fa-square-github text-light fs-3"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-linkedin text-light fs-3"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-square-x-twitter text-light fs-3"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" ><i class="fa-brands fa-square-facebook text-light fs-3"></i></a>
+                </li>
+            </ul>
                 </div>
             </div>
 

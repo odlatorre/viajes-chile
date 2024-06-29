@@ -1,10 +1,10 @@
-body{
-/* Agregando Fuentes */
+body {
+  /* Agregando Fuentes */
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings: "wdth" 100;
   background-color: #0F0F0F;
 }
 
@@ -18,31 +18,34 @@ nav {
   background-color: transparent !important;
 }
 
-.company{
+.company {
   font-family: "Playwrite MX", cursive;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
 
-.navbar-toggler:hover{
-  border-color: green;
-}
+ .toggle-icon {
+      font-size: 24px;
+      cursor: pointer;
+      color: white;
+        }
 
-.navbar-toggler{
-  border-color: white;
-}
-
-#destacados .card{
+#destacados .card {
   width: 100%;
 }
 
-#destacados .card-img-top{
+#destacados .card-img-top {
   height: 200px;
 }
 
-#destacados div.favicon{
+#destacados div.favicon {
   height: 100px;
 }
 
+@media (min-width: 992px) {
+  #contact {
+    padding: 0px 50px 0px 20px;
+  }
+}
 

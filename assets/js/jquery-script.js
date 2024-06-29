@@ -1,3 +1,4 @@
+// Codigo encontrado en https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $("a").on("click", function (event) {
@@ -25,17 +26,29 @@ $(document).ready(function () {
   });
 });
 
-
 // Agregando Tooltip de Bootstrap con jQuery
-$(document).ready(function() {
-  $('[data-bs-toggle="tooltip"]').each(function() {
+$(document).ready(function () {
+  $('[data-bs-toggle="tooltip"]').each(function () {
     new bootstrap.Tooltip($(this));
   });
 });
 
-
+// Codigo Extraido de la clase para aparecer y desaparecer elemento
 $(document).ready(function () {
   $(".card-img-top").click(function () {
-    $(".card-body").toggle()
+    $(".card-body").toggle();
+  });
+});
+
+// Este codigo lo hizo Chatgpt yo solo le agregue los iconos de Font Awesome
+$(document).ready(function () {
+  $(".toggle-icon").on("click", function () {
+    var icon = $(this).find("i");
+    if (icon.hasClass("fa-solid fa-bars")) {
+      icon.removeClass("fa-solid fa-bars").addClass("fa-solid fa-x");
+    } else {
+      icon.removeClass("fa-solid fa-x").addClass("fa-solid fa-bars");
+    }
+   
   });
 });
