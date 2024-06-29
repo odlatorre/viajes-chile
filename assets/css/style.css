@@ -33,3 +33,16 @@ nav {
   border-color: white;
 }
 
+#destacados .card{
+  width: 100%;
+}
+
+#destacados .card-img-top{
+  height: 200px;
+}
+
+#destacados div.favicon{
+  height: 100px;
+}
+
+

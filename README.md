@@ -48,7 +48,6 @@ tooltips, entre otros).
 ## Directorio de Carpetas
 - assets
     - css/style.css
-    - js/bootstrap-script.js
     - js/jquery-script.js
     - img
 - index.html

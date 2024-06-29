@@ -24,3 +24,18 @@ $(document).ready(function () {
     } // End if
   });
 });
+
+
+// Agregando Tooltip de Bootstrap con jQuery
+$(document).ready(function() {
+  $('[data-bs-toggle="tooltip"]').each(function() {
+    new bootstrap.Tooltip($(this));
+  });
+});
+
+
+$(document).ready(function () {
+  $(".card-img-top").click(function () {
+    $(".card-body").toggle()
+  });
+});
