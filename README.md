@@ -75,27 +75,17 @@ tooltips, entre otros).✅
 ```
 
 ### Google Fonts
-Tipo: Fuente de exto
-
-
+Tipo: Fuente de texto
+Fuente Titulo: playwrite-mx
+Fuente Body: Open Sans
 ```HTML
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-```
-```CSS
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
+ <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
 
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 ```
+
 ### JQuery version: 3.7.1
 tipo: Libreria Javascript
 ```HTML
