@@ -5,10 +5,10 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  background-color: #0F0F0F;
+  background-color: #0f0f0f;
 }
 
-
+/* Estilo para el Tooltip */
 .custom-tooltip {
   --bs-tooltip-bg: teal;
   --bs-tooltip-color: white;
@@ -17,7 +17,7 @@ body {
 nav {
   background-color: transparent !important;
 }
-
+/* Fuente Titulo */
 .company {
   font-family: "Playwrite MX", cursive;
   font-optical-sizing: auto;
@@ -25,11 +25,28 @@ nav {
   font-style: normal;
 }
 
- .toggle-icon {
-      font-size: 24px;
-      cursor: pointer;
-      color: white;
-        }
+/* Estilos Boton en pantalla celular */
+.toggle-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar-toggler {
+  border: 1px solid #ccc;
+  /* Ejemplo de borde personalizado */
+  color: #333;
+  /* Ejemplo de color de texto personalizado */
+  /* Otros estilos personalizados según sea necesario */
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color:  rgba(0, 0, 0, 0.5); /* Negro con 50% de transparencia */
+    text-align: center;
+    /* Fondo blanco con transparencia */
+  }
+}
 
 #destacados .card {
   width: 100%;
@@ -48,4 +65,3 @@ nav {
     padding: 0px 50px 0px 20px;
   }
 }
-
