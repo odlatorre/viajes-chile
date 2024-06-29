@@ -76,9 +76,9 @@ tooltips, entre otros).✅
 ```
 
 ### Google Fonts
-Tipo: Fuente de texto
-Fuente Titulo: playwrite-mx
-Fuente Body: Open Sans
+- Tipo: Fuente de texto
+- Fuente Titulo: playwrite-mx
+- Fuente Body: Open Sans
 ```HTML
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
