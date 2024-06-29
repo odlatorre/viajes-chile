@@ -40,7 +40,7 @@
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="toggle-icon">
-                            <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars"></i>
                     </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -120,7 +120,8 @@
                             class="fav fa-solid fa-mountain text-light text-center fs-3 "></i></div>
                 </div>
                 <div class="col">
-                    <div class="favicon text-center bg-info fs-3"><i class=" fav py-1 fa-solid fa-route text-light "></i>
+                    <div class="favicon text-center bg-info fs-3"><i
+                            class=" fav py-1 fa-solid fa-route text-light "></i>
                     </div>
 
                     <p class="text-light d-none d-md-block ">Lorem ipsum dolor sit amet consectetur adipisicing elit. In
@@ -199,7 +200,6 @@
                                 mollitia dolores ipsa sit, voluptate animi iste
                                 asperiores? Quidem repellendus odit earum incidunt, repudiandae quo cumque omnis, facere
                                 laboriosam, voluptas a?</p>
-
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
         <h2 class="text-light display-3 text-center">Contacto</h2>
         <div class="container mx-auto">
             <form id="contact">
-            
+
                 <div class="mb-3">
                     <label for="name" class="form-label text-light fs-4 col-form-label-lg">Nombre</label>
                     <input type="text" class="form-control form-control-lg" id="name">
@@ -233,10 +233,36 @@
                     <label for="message" class="form-label text-light fs-4">Mensaje</label>
                     <textarea class="form-control" id="message" rows="3"></textarea>
                 </div>
-                
-                <button type="Enviar" class="btn btn-info fs-4">Enviar</button>
+
+                <button type="Enviar" class="btn btn-info fs-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enviar</button>
+                <!-- Button trigger modal -->
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Notificación</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Se ha enviado correctamente el formulario
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
+
+
+
     </section>
 
     <footer class="bg-info py-5">
@@ -244,29 +270,32 @@
             <div class="row">
                 <div class="col-4"><span class="brand fs-3 text-light company fw-bold">Viajes Chile</span></div>
                 <div class="col-8">
-            <ul class="nav justify-content-end">
-                <li class="nav-item" >
-                    <a class="nav-link" href="https://github.com/odlatorre/viajes-chile"><i class="fa-brands fa-square-github text-light fs-3"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-brands fa-linkedin text-light fs-3"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-brands fa-square-x-twitter text-light fs-3"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" ><i class="fa-brands fa-square-facebook text-light fs-3"></i></a>
-                </li>
-            </ul>
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/odlatorre/viajes-chile"><i
+                                    class="fa-brands fa-square-github text-light fs-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-brands fa-linkedin text-light fs-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i
+                                    class="fa-brands fa-square-x-twitter text-light fs-3"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i
+                                    class="fa-brands fa-square-facebook text-light fs-3"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
         </div>
-        
-        
-        
-        
-        
+
+
+
+
+
 
     </footer>
 

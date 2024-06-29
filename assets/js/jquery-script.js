@@ -40,7 +40,6 @@ $(document).ready(function () {
   });
 });
 
-
 // Este codigo lo hizo Chatgpt yo solo le agregue los iconos de Font Awesome
 $(document).ready(function () {
   $(".toggle-icon").on("click", function () {
@@ -51,4 +50,15 @@ $(document).ready(function () {
       icon.removeClass("fa-solid fa-x").addClass("fa-solid fa-bars");
     }
   });
+});
+
+$(document).ready(function () {
+  var myModal = $("#myModal");
+  var myInput = $("#myInput");
+
+  if (myModal.length) {
+    myModal.on("shown.bs.modal", function () {
+      myInput.focus();
+    });
+  }
 });
