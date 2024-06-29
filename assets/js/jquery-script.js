@@ -40,7 +40,7 @@ $(document).ready(function () {
   });
 });
 
-// Este codigo lo hizo Chatgpt yo solo le agregue los iconos de Font Awesome
+// Este codigo cambia el icono de barras por el de la cruz cuando hacemos click al menu de celular
 $(document).ready(function () {
   $(".toggle-icon").on("click", function () {
     var icon = $(this).find("i");
@@ -52,6 +52,7 @@ $(document).ready(function () {
   });
 });
 
+// Activa el Modal del formulario
 $(document).ready(function () {
   var myModal = $("#myModal");
   var myInput = $("#myInput");
