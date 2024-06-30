@@ -78,3 +78,6 @@ i.fav{
 .nav-link:hover {
   color:#c1a9e5;
 }
+.nav-link:focus{
+  color:#c1a9e5;
+}
