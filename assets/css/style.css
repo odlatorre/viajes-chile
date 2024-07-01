@@ -48,6 +48,13 @@ nav {
   }
 }
 
+@media (max-width: 767px) {
+    #carouselExampleRide .carousel-item img {
+        height: 44rem;
+        object-fit: cover;
+    }
+}
+
 #destacados .card {
   width: 100%;
 }
