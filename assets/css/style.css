@@ -81,3 +81,11 @@ i.fav{
 .nav-link:focus{
   color:#c1a9e5;
 }
+
+.fade-scroll {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.fade-scroll.visible {
+    opacity: 1;
+}

@@ -63,3 +63,17 @@ $(document).ready(function () {
     $("#name").focus();
   });
 });
+//Fade effect
+   $(document).ready(function () {
+     $(window).on("scroll", function () {
+       $(".fade-scroll").each(function () {
+         var elementTop = $(this).offset().top;
+         var windowBottom = $(window).scrollTop() + $(window).height();
+         if (elementTop < windowBottom) {
+           $(this).addClass("visible");
+         } else {
+           $(this).removeClass("visible");
+         }
+       });
+     });
+   });
